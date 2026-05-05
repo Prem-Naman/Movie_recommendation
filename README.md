@@ -1,5 +1,5 @@
 # Emocine (Emotion-Driven Cinema) 
-** Live Deployment:** [https://emocine-frontend-370437339760.us-central1.run.app](https://emocine-frontend-370437339760.us-central1.run.app)
+Live Deployment: [https://emocine-frontend-370437339760.us-central1.run.app](https://emocine-frontend-370437339760.us-central1.run.app)
 
 Emocine is a cutting-edge, full-stack web application that uses computer vision and deep learning to analyze your facial expressions in real-time and recommend movies that match your current mood. 
 
