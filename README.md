@@ -1,5 +1,5 @@
-# Emocine (Emotion-Driven Cinema) 🎥🧠
-**🚀 Live Deployment:** [https://emocine-frontend-370437339760.us-central1.run.app](https://emocine-frontend-370437339760.us-central1.run.app)
+# Emocine (Emotion-Driven Cinema) 
+** Live Deployment:** [https://emocine-frontend-370437339760.us-central1.run.app](https://emocine-frontend-370437339760.us-central1.run.app)
 
 Emocine is a cutting-edge, full-stack web application that uses computer vision and deep learning to analyze your facial expressions in real-time and recommend movies that match your current mood. 
 
@@ -7,7 +7,7 @@ It is built with a **Next.js** frontend for a sleek, cinematic user interface an
 
 ---
 
-## ✨ Key Features
+##  Key Features
 * **Real-time Facial Emotion Detection:** Utilizes OpenCV and a PyTorch Vision Transformer (`dima806/facial_emotions_image_detection`) to accurately classify your mood.
 * **TF-IDF NLP Recommendation Engine:** Analyzes the plot summaries of over 40,000 movies using Scikit-Learn to find the perfect thematic match for your detected emotion.
 * **Cinematic UI:** A Netflix-style, fully responsive interface built with Tailwind CSS v4 and React.
@@ -16,7 +16,7 @@ It is built with a **Next.js** frontend for a sleek, cinematic user interface an
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 ### **Frontend**
 * **Framework:** Next.js 15 (React 19)
 * **Language:** TypeScript
@@ -35,7 +35,7 @@ It is built with a **Next.js** frontend for a sleek, cinematic user interface an
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 1. **User Interaction:** The Next.js frontend captures a snapshot from the user's webcam and encodes it as a Base64 string.
 2. **API Request:** The frontend sends an asynchronous `POST` request to the backend's `/detect-emotion` endpoint.
 3. **Face Extraction:** The FastAPI server uses OpenCV Haar Cascades to isolate and crop the user's face from the background.
@@ -46,7 +46,7 @@ It is built with a **Next.js** frontend for a sleek, cinematic user interface an
 
 ---
 
-## 🚀 Getting Started (Local Development)
+##  Getting Started (Local Development)
 
 ### 1. Clone the repository
 ```bash
@@ -78,5 +78,5 @@ Visit `http://localhost:3000` in your browser!
 
 ---
 
-## 📄 License
+##  License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
